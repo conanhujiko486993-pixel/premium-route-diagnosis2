@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "【28卒】プレミアルート診断｜あなたに合う企業を見つけよう",
 
   description:
-    "全32問の価値観診断で、あなたにマッチする企業をランキング形式で表示。",
+    "全32問の価値観診断で、あなたにマッチする企業をランキング形式で表示。レーダーチャートによる価値観分析付き。",
 
   openGraph: {
 
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       "【28卒】プレミアルート診断",
 
     description:
-      "価値観分析であなたに最適な企業を診断。",
+      "あなたの価値観を可視化し、相性の良い企業を診断します。",
 
     images: [
       "/ogp.jpg",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="en"
+      lang="jp"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body
