@@ -80,6 +80,7 @@ export default function DiagnosisPage() {
         axisQuestions
       );
 
+      
     const type =
       determineType(
         axisScore

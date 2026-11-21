@@ -16,15 +16,26 @@ type Props = {
 };
 
 const labels = {
-  salary: "高収入",
-  growth: "成長",
-  global: "グローバル",
-  welfare: "福利厚生",
-  social: "社会貢献",
-  specialty: "専門性",
-  entrepreneurship: "起業",
-  management: "経営",
-  workLifeBalance: "WLB",
+
+  salary: "高収入志向",
+
+  growth: "成長志向",
+
+  global: "グローバル志向",
+
+  welfare: "福利厚生重視",
+
+  social: "社会貢献志向",
+
+  specialty: "専門性志向",
+
+  entrepreneurship: "起業家志向",
+
+  management: "経営志向",
+
+  workLifeBalance:
+    "ワークライフバランス重視",
+
 };
 
 export default function ProfileRadarChart({
