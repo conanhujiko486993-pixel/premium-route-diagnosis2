@@ -14,6 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
 
+  metadataBase: new URL(
+    "https://premium-route-diagnosis2.vercel.app"
+  ),
+
   title:
     "【28卒】プレミアルート診断｜あなたに合う企業を見つけよう",
 
@@ -28,17 +32,39 @@ export const metadata: Metadata = {
     description:
       "あなたの価値観を可視化し、相性の良い企業を診断します。",
 
-    images: [
-      "/ogp.jpg",
-    ],
+    url:
+      "https://premium-route-diagnosis2.vercel.app",
 
-    type: "website",
+    siteName:
+      "プレミアルート診断",
+
+    locale:
+      "ja_JP",
+
+    type:
+      "website",
+
+    images: [
+
+      {
+        url: "/ogp.jpg",
+
+        width: 1200,
+
+        height: 630,
+
+        alt:
+          "プレミアルート診断",
+      },
+
+    ],
 
   },
 
   twitter: {
 
-    card: "summary_large_image",
+    card:
+      "summary_large_image",
 
     title:
       "【28卒】プレミアルート診断",
