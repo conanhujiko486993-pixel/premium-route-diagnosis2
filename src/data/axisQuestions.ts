@@ -160,7 +160,7 @@ export const axisQuestions = [
 
       {
         id: "E",
-        label: "両方",
+        label: "日本＋世界",
         axis: { D: 1, G: 1 }
       },
 
